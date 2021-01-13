@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: wheat;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: snow;
+	font-family: sans-serif;
+	padding: 1.5%;
+	font-size: 18px;
+}
+.menu-list{
+	list-style-type: none;
+	display: inline-flex;
+}
+header li{
+	display: block;
+	padding: 14px 16px;
+
+} 
+header li a{
+	text-decoration: none;
+	color: snow;
+}
+header h2{
+	padding-top: 2px;
+	font-style: italic;
+	color: salmon;
+}
+header li:hover{
+	background-color: grey;
+	color: wheat;
+	cursor: pointer;
+}
+.head{
+	background-color: slategrey;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	margin-top: 6%;
+	color: wheat;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: 2px solid gold;
+}
+.head h2{
+	font-size: 22px;
+}
+.main{
+	text-align: center;
+	padding-top: 1.2%;
+	font-family: serif;
+	letter-spacing: 0.8px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1.5%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	margin-bottom: 3%;
+}
+.cc{
+	color: salmon;
+	font-size: 20px;
+	font-weight: bold;
+}
+.main p{
+	font-size: 20px;
+	padding-bottom: 1.6%;
+}
+main{
+	background-image: linear-gradient(to bottom, slategrey, lightgrey);
+}
+.txt-services{
+	font-family: monospace;
+	font-size: 2.1rem;
+	text-decoration: underline;
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+	color: black;
+}
+
+.services{
+	text-align: center;
+	margin-top: 3%;
+}
+.services p{
+	font-size: 16px;
+	font-family: verdana;
+}
+span{
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+.service-list{
+	font-size: 20px;
+	margin-top: 2%;
+	font-family: sans-serif;
+}
+.services li{
+	margin-top: 1.3%;
+	padding-bottom: 2%;
+	list-style-type: none;
+}
+.p{
+	color: green;
+}
+.s{
+	color: blue;
+}
+.c{
+	color: pink;
+}
+.r{
+	color: red;
+}

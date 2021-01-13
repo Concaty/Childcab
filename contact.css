@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: lightsalmon;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: snow;
+	font-family: sans-serif;
+	padding: 1.5%;
+	font-size: 18px;
+}
+.menu-list{
+	list-style-type: none;
+	display: inline-flex;
+}
+img{
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	left: 33%;
+	top: 120px;
+}
+header li{
+	display: block;
+	padding: 14px 16px;
+
+}
+header li a{
+	text-decoration: none;
+	color: snow;
+}
+header h2{
+	padding-top: 2px;
+	font-style: italic;
+	color: salmon;
+}
+header li:hover{
+	background-color: grey;
+	color: wheat;
+	cursor: pointer;
+}
+.contact{
+	background-color: black;
+	color: snow;
+	text-align: center;
+	margin-top: 30%;
+	margin-bottom: 3%;
+	padding-bottom: 2%;
+}
+.txt-contact{
+	font-size: 2.1rem;
+	font-family: monospace;
+	text-decoration: underline;
+}
+.contact p{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.Number{
+	color: snow;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
